@@ -6,6 +6,23 @@ section.task-list {
   padding: 70px 60px;
   
   filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.06));
+
+  .error {
+    padding: 6px 0px 0px 0px;
+    flex: 1;
+    display: block;
+    background: var(--red);
+    color: var(--shapes);
+    border-radius: 0.6rem;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .errorTimer{
+    padding: 3px;
+    background-color: rgb(95, 44, 44);
+  }
   
   header {
     display: flex;
